@@ -1,0 +1,17 @@
+name: helmet_comms
+description: Hands-free rider voice chat over data.
+publish_to: none
+version: 0.1.0
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  livekit_client: ^2.3.0
+  audio_session: ^0.1.21
+  flutter_secure_storage: ^9.2.2
+  share_plus: ^10.0.0
+  http: ^1.2.0
+  wakelock_plus: ^1.2.8
+flutter:
+  uses-material-design: true
